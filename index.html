@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My First Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+  <style>
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      color: white;
+      margin: 0;
+    }
+
+    header {
+      background-image: url('https://i.imgur.com/L2X0kcH.jpeg');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .subnav {
+      margin-top: 15px;
+      background-color: transparent;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .subnav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .subnav a:hover {
+      text-decoration: underline;
+    }
+
+    .intro-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .intro {
+      flex: 1;
+    }
+
+    .intro-image {
+      width: 220px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .divider {
+      border-bottom: 4px solid black;
+      margin: 20px 0;
+      width: 100%;
+    }
+
+    .threecolumns {
+      width: 30%;
+      padding: 15px;
+      background-color: #ede0d4;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      color: black;
+    }
+
+    .threecolumns h3 {
+      margin-top: 0;
+    }
+
+    .columns-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .content-box {
+      background-color: #b08968;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      max-width: 100%;
+      margin: 20px auto;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      border-radius: 0 0 8px 8px;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+      clear: both;
+    }
+
+    @media (max-width: 800px) {
+      .intro-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .columns-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .threecolumns {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+
+    <header>
+      <h1>My First Website</h1>
+      <nav class="subnav">
+        <a href="myfirstwebsite.html">Home</a> |
+        <a href="aboutme.html">About Me</a> |
+        <a href="favoritethings.html">Favorite Things</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Main content in a clean white box -->
+      <div class="content-box">
+        <!-- Intro section -->
+        <div class="intro-container">
+          <p class="intro">
+            Hello! I’m Clay Zarinana, an emerging graphic designer that specializes in character design, brochure/flyers, and digital illustration using Photoshop and Illustrator. This portfolio is a showcase of my artistic and growing technical skills.
+          </p>
+          <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg" alt="Clay Zarinana" class="intro-image">
+        </div>
+
+        <div class="divider"></div>
+
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+        </p>
+        <div class="columns-wrapper">
+          <div class="threecolumns">
+            <h3>Favorite Things</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <p><a href="favoritethings.html">Read more...</a></p>
+          </div>
+
+          <div class="threecolumns">
+            <h3>About Me</h3>
+            <p>Hello! I'm Clay, a passionate graphic designer based in California...</p>
+            <p><a href="aboutme.html">Read more...</a></p>
+          </div>
+
+          <div class="threecolumns">
+            <h3>Projects</h3>
+            <p>Check out some of my latest graphic design projects, including logo designs and digital illustrations.</p>
+            <p><a href="#">Read more...</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Clay Zarinana. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
