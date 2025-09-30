@@ -37,83 +37,201 @@
 </h3>
 
 
-        <div class="columns-wrapper">
-          <div class="threecolumns">
-            <h3 style="text-align: center:"> In-n-Out</h3>
-			   <img src="https://i.imgur.com/lMpcVv0.jpeg" alt="Yakuza Game Cover" class="yakuza-img" style="width: 200px; display: block; margin: 0 auto 8px;" />
-            <p>In-N-Out has been the fast food staple of the west coast since its opening in 1948 in baldwin park, CA. Its simple and cheap, yet flavorful menu has drawn people to the west coast worldwide! My personal favorite order from the establishment is a double double cheeseburger, animal fries, along with a cold refreshing coke, and is best eaten with a beautiful view from your nearby beach.  </p>
-          </div>
+        <style>
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
 
-          <div class="threecolumns">
-            <h3>Yakuza</h3>
-			  <img src="https://i.imgur.com/gp15GIB.jpeg" alt="Yakuza Game Cover" class="yakuza-img" style="width: 200px; display: block; margin: 0 auto 8px;" />
-            <p>The yakuza series, created by Ryu ga Gotoku and SEGA© in 2005-&nbsp; First released in Japan on the Playstation 2,&nbsp; the series has expanded to over 23 games total! From the main Yakuza series to Like a Dragon and several spin offs, yakuza has been my all time favorite game for over a year! I love the storyline, characters, and the overall combat gameplay, and is my number one game rec for people who love action games and single player story games. </p>
-          </div>
+  .lightbox-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+  }
 
-          <div class="threecolumns">
-            <h3>Takoyaki</h3>
-			  <img src="https://i.imgur.com/8Zk8WtU.jpeg" alt="Yakuza Game Cover" class="yakuza-img" style="width: 200px; display: block; margin: 0 auto 8px;" />
-            <p>Takoyaki たこ焼き - Or 'Grilled Octopus' is a Japanese dish made with wheat batter, octopus, and toppings such as mayo, seaweed and bonito flakes! Its savory, with a umami taste, along with having a crispy outside and a chewy flavorful inside from the octopus, creating the ultimate balance of flavors once the sweet takoyaki sauce and mayo are added, and is personally one of my favorite Japanese Dishes for these reasons.</p>
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
 
-          </div>
-			 <div class="columns-wrapper">
-				 <img src="https://i.imgur.com/qzyRbo0.png"
-       alt="Sticker 1"
-       class="sticker"
-       style="top: 1100px; left: 250px;" />
-    <div class="threecolumns">
-      <h3> History </h3>
-      <img src="https://i.imgur.com/c7wr6Wn.jpeg" alt="Chemist" style="width: 200px; display: block; margin: 0 auto 8px;" />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="threecolumns">
-      <h3>Science&nbsp;</h3>
-      <img src=" https://i.imgur.com/FG4BCCp.jpeg" alt="Yakuza Game Cover" style="width: 200px; display: block; margin: 0 auto 8px;" />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-    </div>
-
-    <div class="threecolumns">
-      <h3>Old Tech&nbsp;</h3>
-      <img src="https://i.imgur.com/Sp7CPPq.jpeg" alt="Takoyaki" style="width: 200px; display: block; margin: 0 auto 8px;" />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-				 	 
-	 
+<div class="columns-wrapper">
+  <div class="threecolumns">
+    <h3 style="text-align: center;">In-n-Out</h3>
+    <img
+      src="https://i.imgur.com/lMpcVv0.jpeg"
+      alt="In-n-Out Burger"
+      class="yakuza-img lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      In-N-Out has been the fast food staple of the west coast since its opening in 1948 in Baldwin Park, CA.
+      Its simple and cheap, yet flavorful menu has drawn people to the west coast worldwide! My personal
+      favorite order from the establishment is a double double cheeseburger, animal fries, along with a cold
+      refreshing coke, and is best eaten with a beautiful view from your nearby beach.
+    </p>
   </div>
-        </div>
-		  <div  class= "divider"> </div>
-		    <div style="display: flex; align-items: flex-start;">
-  <div style="width: 320px; margin-right: 20px;"> </div>
-				
 
+  <div class="threecolumns">
+    <h3>Yakuza</h3>
+    <img
+      src="https://i.imgur.com/gp15GIB.jpeg"
+      alt="Yakuza Game Cover"
+      class="yakuza-img lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      The yakuza series, created by Ryu ga Gotoku and SEGA© in 2005. First released in Japan on the
+      Playstation 2, the series has expanded to over 23 games total! From the main Yakuza series to Like a
+      Dragon and several spin offs, Yakuza has been my all time favorite game for over a year! I love the
+      storyline, characters, and the overall combat gameplay, and it’s my number one game rec for people who
+      love action games and single player story games.
+    </p>
+  </div>
+
+  <div class="threecolumns">
+    <h3>Takoyaki</h3>
+    <img
+      src="https://i.imgur.com/8Zk8WtU.jpeg"
+      alt="Takoyaki Dish"
+      class="yakuza-img lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      Takoyaki たこ焼き - Or 'Grilled Octopus' is a Japanese dish made with wheat batter, octopus, and toppings
+      such as mayo, seaweed and bonito flakes! It’s savory, with a umami taste, along with having a crispy
+      outside and a chewy flavorful inside from the octopus, creating the ultimate balance of flavors once
+      the sweet takoyaki sauce and mayo are added. It’s personally one of my favorite Japanese dishes for
+      these reasons.
+    </p>
+  </div>
 </div>
+
+<div class="columns-wrapper">
+  <div class="threecolumns">
+    <h3>History</h3>
+    <img
+      src="https://i.imgur.com/c7wr6Wn.jpeg"
+      alt="Chemist"
+      class="lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum.
+    </p>
+  </div>
+
+  <div class="threecolumns">
+    <h3>Science</h3>
+    <img
+      src="https://i.imgur.com/FG4BCCp.jpeg"
+      alt="Science Image"
+      class="lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+  </div>
+
+  <div class="threecolumns">
+    <h3>Old(er) Tech</h3>
+    <img
+      src="https://i.imgur.com/Sp7CPPq.jpeg"
+      alt="Old Tech"
+      class="lightbox-trigger"
+      style="width: 200px; display: block; margin: 0 auto 8px;"
+    />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+  </div>
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
+
+<script>
+  const triggers = document.querySelectorAll(".lightbox-trigger");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  triggers.forEach((img) => {
+    img.addEventListener("click", () => {
+      lightbox.style.display = "block";
+      lightboxImg.src = img.src;
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.style.display = "none";
+  }
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+</script>
+
+<div class="divider"></div>
+
 <div style="text-align: center; margin: 40px 0;">
   <div style="position: relative; display: inline-block; text-align: center;">
-    <img src="https://static.vecteezy.com/system/resources/previews/027/240/906/non_2x/aesthetic-sticky-note-free-png.png" 
-         alt="Sticky note" 
-         style="width: 300px; height: auto; display: block;">
+    <img 
+      src="https://static.vecteezy.com/system/resources/previews/027/240/906/non_2x/aesthetic-sticky-note-free-png.png"
+      alt="Sticky note"
+      style="width: 300px; height: auto; display: block;"
+    />
 
-    <div style="position: absolute; top: 50%; left: 50%; 
-                transform: translate(-50%, -50%);
-                font-size:15px; font-weight: bold; 
-                color: #333; font-family: Arial, sans-serif; 
-                width: %; line-height: 1.4;">
-      Update Log<br>
-      - Gathered 6/8 images  <br>
-      - Breifly Talked about subjects and why i liked them
+    <div style="
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      font-size: 15px; 
+      font-weight: bold; 
+      color: #333; 
+      font-family: Arial, sans-serif; 
+      width: 90%; 
+      line-height: 1.4;
+    ">
+      <p>
+        Update Log<br>
+        - Gathered 6/8 images<br>
+        - Briefly talked about subjects and why I liked them
+      </p>
+      <p>- Lightbox now working!</p>
     </div>
   </div>
 </div>
 
-      </div>
-    </main>
-    <footer>
-      <p>© 2025 Clay Zarinana. All rights reserved.</p>
-    </footer>
-</div>
-	
-</body>
-	
-</html>
-	
+<footer>
+  <p>© 2025 Clay Zarinana. All rights reserved.</p>
+</footer>
