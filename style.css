@@ -136,7 +136,7 @@ margin-right: auto;
 }
 .sticker {
   position: absolute;
-  width: 100px;
+  width: 200px;
   pointer-events: none;
   user-select: none;
   transform: rotate(-5deg);
@@ -149,6 +149,15 @@ margin-right: auto;
   user-select: none;
   transform: rotate(-5deg);
   z-index: 5;
+	animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+  }
 }
 .pfp {
     display: block;
